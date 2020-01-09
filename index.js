@@ -1,4 +1,4 @@
-var dwarves = ["Dopey", "Grumpy", "Bashful"];
+var dwarves = ["Dopey", "Grumpy", "Bashful "];
   var dwarvesArray = []
 function dwarfRollCall() {
 
@@ -13,18 +13,17 @@ function dwarfRollCall() {
 
 
 function summonCaptainPlanet(planeteerCalls){
-
   var result = [];
-    planeteerCalls.forEach(function(elem) {
-    	var elem = elem.toUpperCase() + "!";
-    	result.push(elem);
-    });
-    return result;
+  for (var i = 0; i < planeteerCalls.length; i++){
+     result.push(planeteerCalls[i].toUpperCase() + "!")
+
   }
+  return result
+}
 
 
-//  return  result[i].toUpperCase()+"!";
 
+// var ele = planeteerCalls.toUpperCase() + "!";
 
 function longPlaneteerCalls(words) {
 	for(var i = 0; i < words.length; i++) {
@@ -38,7 +37,8 @@ function longPlaneteerCalls(words) {
 
 
 function findTheCheese(foods) {
-  
+
+  var cheese = ['swiss', 'cheddar', 'american', 'guda']
 var cheeseInCommon = foods.indexOf('cheddar')
 
 if (cheeseInCommon > [-1]) {
