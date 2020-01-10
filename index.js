@@ -65,3 +65,15 @@ return 'no cheese!'
 //     return 'no cheese!'
 //   }
 // }
+
+
+
+function wordsWithB(words){
+  var array = []
+  for(var i = 0; i < words.length; i++){
+    if (words[i].startsWith('b') {
+      array.push(words[i])
+  }
+}
+return array
+}
