@@ -45,11 +45,12 @@ function findTheCheese(foods) {
       if(foods[i] === cheese[j]){
         return cheese[j]
 }
-      else {
-        return 'no cheese!'
-      }
+
+
+
 }
 }
+return 'no cheese!'
 }
 
 // function findTheCheese(foods) {
