@@ -1,5 +1,5 @@
 var dwarves = ["Dopey", "Grumpy", "Bashful "];
-  var dwarvesArray = []
+var dwarvesArray = []
 function dwarfRollCall() {
 
   for (let i = 0; i < dwarves.length; i++){
@@ -36,30 +36,30 @@ function longPlaneteerCalls(words) {
 
 }
 
-// var cheese = ['cheddar']
-// function findTheCheese(foods) {
-//
-//   for(var i = 0; i < foods.length; i++){
-//     for(var j =0; j < cheese.length; j++){
-//
-//       if(foods[i] === cheese[j]){
-//         return cheese[j]
-// }
-//       else {
-//         return 'no cheese!'
-//       }
-// }
-// }
-// }
-
+var cheese = ['cheddar']
 function findTheCheese(foods) {
-    var cheese = ['cheddar']
-    var cheeseInCommon = foods.indexOf('cheddar')
 
-  if (cheeseInCommon > [-1]) {
-    return cheese;
-  }
-  else {
-    return 'no cheese!'
-  }
+  for(var i = 0; i < foods.length; i++){
+    for(var j =0; j < cheese.length; j++){
+
+      if(foods[i] === cheese[j]){
+        return cheese[j]
 }
+      else {
+        return 'no cheese!'
+      }
+}
+}
+}
+
+// function findTheCheese(foods) {
+//     var cheese = ['cheddar', 'guda', 'american']
+//     var cheeseInCommon = foods.indexOf('guda')
+// 
+//   if (cheeseInCommon > [-1]) {
+//     return cheese;
+//   }
+//   else {
+//     return 'no cheese!'
+//   }
+// }
