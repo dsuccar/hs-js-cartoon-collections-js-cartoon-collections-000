@@ -36,7 +36,7 @@ function longPlaneteerCalls(words) {
 
 }
 
-var cheese = ['cheddar']
+var cheese = ['cheddar',"guda" , "american"]
 function findTheCheese(foods) {
 
   for(var i = 0; i < foods.length; i++){
@@ -52,6 +52,7 @@ function findTheCheese(foods) {
 }
 return 'no cheese!'
 }
+
 
 // function findTheCheese(foods) {
 //     var cheese = ['cheddar', 'guda', 'american']
