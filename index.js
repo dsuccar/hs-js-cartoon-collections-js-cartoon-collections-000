@@ -30,38 +30,36 @@ function longPlaneteerCalls(words) {
 		if(words[i].length > 4) {
 			return true;
 		}
-	}
-	return false;
+      else { return false;
+      }
+  }
+
 }
 
-
+// var cheese = ['cheddar']
+// function findTheCheese(foods) {
+//
+//   for(var i = 0; i < foods.length; i++){
+//     for(var j =0; j < cheese.length; j++){
+//
+//       if(foods[i] === cheese[j]){
+//         return cheese[j]
+// }
+//       else {
+//         return 'no cheese!'
+//       }
+// }
+// }
+// }
 
 function findTheCheese(foods) {
+    var cheese = ['cheddar']
+    var cheeseInCommon = foods.indexOf('cheddar')
 
-  var cheese = ['swiss', 'cheddar', 'american', 'guda']
-var cheeseInCommon = foods.indexOf('cheddar')
-
-if (cheeseInCommon > [-1]) {
-  return cheese[cheeseInCommon]
+  if (cheeseInCommon > [-1]) {
+    return cheese;
+  }
+  else {
+    return 'no cheese!'
+  }
 }
-else {
-  return 'no cheese!'
-}
-}
-
-
-
-
-
-  // for(var i = 0; i < foods.length; i++){
-  //   for(var j =0; j < cheese.length; j++){
-  //
-  //     if(foods[i] = cheese[j]){
-  //       return cheese[j]
-
-
-
-
-
-  //  {return 'no cheese!';
-  //     }
