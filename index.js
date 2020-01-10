@@ -55,7 +55,7 @@ function findTheCheese(foods) {
 // function findTheCheese(foods) {
 //     var cheese = ['cheddar', 'guda', 'american']
 //     var cheeseInCommon = foods.indexOf('guda')
-// 
+//
 //   if (cheeseInCommon > [-1]) {
 //     return cheese;
 //   }
